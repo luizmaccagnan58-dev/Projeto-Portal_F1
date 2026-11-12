@@ -1,6 +1,7 @@
 # Portal F1 — Projeto Front-End
 
 Projeto acadêmico de portal informativo sobre Fórmula 1.
+Integrantes: Luiz Fernando Maccagnan (@luizmaccagnan58-dev) E Maria Luiza Machado (@marialuizamachado).
 
 ## Abrir no Visual Studio Code
 1. Extraia ou abra a pasta `Portal_F1` no VS Code.
