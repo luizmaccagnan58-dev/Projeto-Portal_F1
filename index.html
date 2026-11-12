@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Fórmula 1 — Início</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+  <style>
+    #aviso-academico { border-left: 4px solid #E10600; padding: .75rem 1rem; background: rgba(255,255,255,.04); }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-f1 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">F1 <span>PORTAL</span></a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" id="mobile-menu-btn" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">História</a></li>
+          <li class="nav-item"><a class="nav-link" href="pilotos.html">Pilotos</a></li>
+          <li class="nav-item"><a class="nav-link" href="ferrari.html">Ferrari</a></li>
+          <li class="nav-item"><a class="nav-link" href="mclaren.html">McLaren</a></li>
+          <li class="nav-item"><a class="nav-link" href="mercedes.html">Mercedes</a></li>
+          <li class="nav-item"><a class="nav-link" href="redbull.html">Red Bull</a></li>
+          <li class="nav-item"><a class="nav-link" href="williams.html">Williams</a></li>
+          <li class="nav-item"><a class="nav-link" href="equipes.html">Equipes</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato & Quiz</a></li>
+          <li class="nav-item" id="f1-extra-nav"><a class="nav-link" href="https://www.formula1.com/" target="_blank" rel="noopener noreferrer">Site oficial ↗</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <header class="hero-section text-center py-5">
+    <div class="container position-relative py-5">
+      <h1 class="display-3 fw-bold text-uppercase mb-3" style="color: #DC0000;">FÓRMULA 1</h1>
+      <p class="lead text-uppercase fs-4 mb-4 text-white">Velocidade, história e competição.</p>
+      <p class="col-lg-8 mx-auto mb-4 text-white-50">
+        Explore a história de uma das maiores categorias do automobilismo mundial. Conheça os pilotos lendários, as equipes históricas e as inovações que transformaram a Fórmula 1 em um dos esportes mais emocionantes do planeta.
+      </p>
+      <a href="https://www.formula1.com/" class="btn btn-f1 btn-lg text-uppercase">EXPLORE A F1</a>
+    </div>
+  </header>
+
+  
+  <main class="container my-5">
+    <h2 class="fw-bold text-center mb-5">Conheça o Universo da F1</h2>
+    <p id="aviso-academico" class="mb-4">Explore as seções do portal e conheça diferentes momentos da história da Fórmula 1.</p>
+    <div class="row g-4">
+      
+      <div class="col-md-3">
+        <div class="card card-f1 h-100 text-white overflow-hidden">
+          <img src="img/F1-Historia.webp" class="card-img-top" alt="História da F1" style="height: 140px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h5 card-title">História da F1</h3>
+            <p class="text-white-50 small">A evolução do Campeonato Mundial desde 1950 até a atual era tecnológica.</p>
+            <a href="historia.html" class="btn btn-outline-light mt-auto btn-sm">Conhecer história</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="card card-f1 h-100 text-white overflow-hidden">
+          <img src="img/grandes-pilotos.jpg" alt="Grandes Pilotos" style="height: 140px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h5 card-title">Grandes Pilotos</h3>
+            <p class="text-white-50 small">Lendas eternas e os principais competidores que aceleram nas pistas hoje.</p>
+            <a href="pilotos.html" class="btn btn-outline-light mt-auto btn-sm">Conhecer pilotos</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="card card-f1 h-100 text-white overflow-hidden">
+          <img src="img/equipes-f1-hist.jpg" class="card-img-top" alt="Equipes Lendárias" style="height: 140px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h5 card-title">Equipes Lendárias</h3>
+            <p class="text-white-50 small">Escuderias icônicas como Ferrari, McLaren, Mercedes, Red Bull e Williams.</p>
+            <a href="equipes.html" class="btn btn-outline-light mt-auto btn-sm">Conhecer equipes</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="card card-f1 h-100 text-white overflow-hidden">
+          <img src="img/f1-logo.jpg" class="card-img-top" alt="F1 Atualmente" style="height: 140px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h5 card-title">F1 Atualmente</h3>
+            <p class="text-white-50 small">A temporada de 2026, novas regulamentações e alta tecnologia híbrida.</p>
+            <a href="equipes.html" class="btn btn-outline-light mt-auto btn-sm">Explorar equipes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="my-5" aria-labelledby="galeria-titulo">
+      <h2 id="galeria-titulo" class="text-center mb-4">Galeria: momentos da Fórmula 1</h2>
+      <div id="galeria-f1" class="galeria-f1">
+        <figure class="card-f1 p-2 rounded"><img src="img/Carros_F1-Inicio.webp" alt="Carros de Fórmula 1 na pista" class="w-100 rounded"><figcaption class="p-2">Tecnologia e velocidade</figcaption></figure>
+        <figure class="card-f1 p-2 rounded"><img src="img/Ayrton-Senna.webp" alt="Ayrton Senna" class="w-100 rounded"><figcaption class="p-2">Ícones do automobilismo</figcaption></figure>
+        <figure class="card-f1 p-2 rounded"><img src="img/equipes-f1-hist.jpg" alt="Equipes históricas da Fórmula 1" class="w-100 rounded"><figcaption class="p-2">Grandes escuderias</figcaption></figure>
+      </div>
+    </section>
+
+    
+    <section class="row my-5 justify-content-center">
+      <div class="col-md-8 text-center p-4 card-f1 rounded">
+        <h3 style="color: #DC0000;">Sinta a emoção da Fórmula 1</h3>
+        <p class="text-white mb-3">Ouça o ronco dos motores e sinta a atmosfera dos circuitos.</p>
+        <audio controls class="w-100">
+          <source src="audio/freesound_community-monza-track-side-69992.mp3.mpeg" type="audio/mpeg">
+        </audio>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-1 fw-bold">Portal Fórmula 1 — Desenvolvido por Luiz Maccagnan e Maria Luiza Machado</p>
+      <p class="text-white-50 small mb-0">Projeto acadêmico desenvolvido para a disciplina de Front-End — Engenharia de Software (Universidade Positivo).</p>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap-local.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Fórmula 1 — Contato, Quiz e Autores</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-f1 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">F1 <span>PORTAL</span></a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">História</a></li>
+          <li class="nav-item"><a class="nav-link" href="pilotos.html">Pilotos</a></li>
+          <li class="nav-item"><a class="nav-link" href="ferrari.html">Ferrari</a></li>
+          <li class="nav-item"><a class="nav-link" href="mclaren.html">McLaren</a></li>
+          <li class="nav-item"><a class="nav-link" href="mercedes.html">Mercedes</a></li>
+          <li class="nav-item"><a class="nav-link" href="redbull.html">Red Bull</a></li>
+          <li class="nav-item"><a class="nav-link" href="williams.html">Williams</a></li>
+          <li class="nav-item"><a class="nav-link" href="equipes.html">Equipes</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contato.html">Contato & Quiz</a></li>
+          <li class="nav-item" id="f1-extra-nav"><a class="nav-link" href="https://www.formula1.com/" target="_blank" rel="noopener noreferrer">Site oficial ↗</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    
+    <section class="mb-5">
+      <h2 class="mb-3">Entre em contato</h2>
+      <form id="contact-form" class="card card-f1 p-4">
+        <div class="mb-3">
+          <label for="nome" class="form-label text-white">Nome:</label>
+          <input type="text" class="form-control" id="nome" name="nome" required minlength="3" pattern="[A-Za-zÀ-ÿ\s]{3,}" title="Digite pelo menos 3 letras." placeholder="Seu nome completo">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label text-white">E-mail:</label>
+          <input type="email" class="form-control" id="email" name="email" required placeholder="seu@email.com">
+        </div>
+        <div class="mb-3">
+          <label for="equipe-favorita" class="form-label text-white">Equipe Favorita:</label>
+          <select class="form-select" id="equipe-favorita" name="equipe" required>
+            <option value="" disabled selected>Selecione sua equipe</option>
+            <option value="ferrari">Ferrari</option>
+            <option value="mclaren">McLaren</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="redbull">Red Bull Racing</option>
+            <option value="williams">Williams</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label text-white">Mensagem:</label>
+          <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required minlength="10" placeholder="Escreva sua mensagem..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-f1">Enviar Mensagem</button>
+        <div id="form-feedback" class="mt-3" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+
+    
+    <section class="mb-5 card card-f1 p-4">
+      <h2 class="mb-3 text-white">Você realmente conhece a Fórmula 1?</h2>
+      <p class="text-white-50">Teste seus conhecimentos. Sua melhor pontuação é salva automaticamente no navegador.</p>
+      <div id="best-score-display" class="alert alert-secondary mb-3">Melhor pontuação salva: <strong>0/10</strong></div>
+      <div id="quiz-container" aria-live="polite">
+        
+      </div>
+      <button id="submit-quiz" class="btn btn-f1 mt-3">Finalizar Quiz</button>
+      <div id="quiz-result" class="mt-3 fw-bold"></div>
+    </section>
+
+    
+    <section class="mb-5">
+      <h2 class="text-center mb-2">QUEM ESTÁ POR TRÁS DO PROJETO?</h2>
+      <p class="text-center text-white-50 mb-4">Conheça os estudantes responsáveis pela criação deste portal.</p>
+      <div class="row g-4">
+        
+        <div class="col-md-6">
+          <div class="card card-f1 p-4 h-100 text-center">
+            <img src="img/Foto-Maria_Luiza.jpeg" alt="Maria Luiza Machado" class="rounded-circle mx-auto mb-3 shadow" style="width: 150px; height: 150px; object-fit: cover;">
+            <h3 style="color: #DC0000;">Maria Luiza Machado</h3>
+            <p class="text-white-50">Engenharia de Software - Universidade Positivo</p>
+            <p class="text-start mt-2 text-white"><strong>Quem sou:</strong> Estudante de Engenharia de Software focada em desenvolvimento web, arquitetura limpa e automação de processos.</p>
+            <p class="text-start text-white"><strong>Relação com a F1:</strong> Fascinada pela precisão tecnológica e pela rica história estratégica do automobilismo mundial.</p>
+            <p class="text-start text-white"><strong>Contribuição:</strong> Desenvolvimento da arquitetura de páginas, estilização visual e lógica interativa em JavaScript.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-6">
+          <div class="card card-f1 p-4 h-100 text-center">
+            <img src="img/Foto-Luiz_Maccagnan.jpeg" alt="Luiz Maccagnan" class="rounded-circle mx-auto mb-3 shadow" style="width: 150px; height: 150px; object-fit: cover;">
+            <h3 style="color: #DC0000;">Luiz Maccagnan</h3>
+            <p class="text-white-50">Engenharia de Software - Universidade Positivo</p>
+            <p class="text-start mt-2 text-white"><strong>Quem sou:</strong> Acadêmico de Engenharia de Software com forte interesse em interfaces responsivas e experiência do usuário (UX).</p>
+            <p class="text-start text-white"><strong>Relação com a F1:</strong> Entusiasta da evolução técnica dos carros e das rivalidades históricas das grandes escuderias.</p>
+            <p class="text-start text-white"><strong>Contribuição:</strong> Implementação de componentes responsivos, estruturação de tabelas e testes de usabilidade.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="card card-f1 p-4 mb-5">
+      <h3 style="color: #DC0000;">NOSSA IDEIA POR TRÁS DO PROJETO</h3>
+      <p class="mt-3 text-white">Este projeto nasceu da proposta de desenvolver um site sobre um tema de nossa escolha, e escolhemos a Fórmula 1 por sua combinação de história, tecnologia, velocidade e competição. Nossa ideia foi criar um portal que reunisse informações sobre a evolução da categoria, seus grandes pilotos e as equipes que marcaram gerações. Além de apresentar esse universo aos visitantes, buscamos aplicar na prática os conhecimentos adquiridos durante a disciplina de Front-End, desenvolvendo uma experiência visual agradável, organizada, responsiva e interativa.</p>
+    </section>
+  </main>
+
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-1 fw-bold">Portal Fórmula 1 - Maria Luiza Machado e Luiz Maccagnan</p>
+      <p class="text-white-50 small mb-0">Projeto acadêmico desenvolvido para a disciplina de Front-End - Engenharia de Software (Universidade Positivo).</p>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap-local.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/formulario.js"></script>
+</body>
+</html>

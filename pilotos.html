@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Fórmula 1 — Grandes Pilotos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap-compat.css">
+  <link rel="stylesheet" href="css/pilotos.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-f1 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">F1 <span>PORTAL</span></a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" id="mobile-menu-btn" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">História</a></li>
+          <li class="nav-item"><a class="nav-link active" href="pilotos.html">Pilotos</a></li>
+          <li class="nav-item"><a class="nav-link" href="ferrari.html">Ferrari</a></li>
+          <li class="nav-item"><a class="nav-link" href="mclaren.html">McLaren</a></li>
+          <li class="nav-item"><a class="nav-link" href="mercedes.html">Mercedes</a></li>
+          <li class="nav-item"><a class="nav-link" href="redbull.html">Red Bull</a></li>
+          <li class="nav-item"><a class="nav-link" href="williams.html">Williams</a></li>
+          <li class="nav-item"><a class="nav-link" href="equipes.html">Equipes</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato & Quiz</a></li>
+          <li class="nav-item" id="f1-extra-nav"><a class="nav-link" href="https://www.formula1.com/" target="_blank" rel="noopener noreferrer">Site oficial ↗</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container main-content my-5">
+    <section class="pilotos-intro text-center mb-4">
+      <h1 class="mb-2">Grandes Pilotos</h1>
+      <p class="text-white-50">Conheça os ícones que moldaram a história da Fórmula 1 e os talentos que competem na temporada de 2026.</p>
+    </section>
+
+    
+    <div class="filter-buttons text-center mb-4">
+      <button class="filter-btn active btn btn-outline-light btn-sm m-1" data-filter="all">Todos</button>
+      <button class="filter-btn btn btn-outline-light btn-sm m-1" data-filter="historico">Históricos</button>
+      <button class="filter-btn btn btn-outline-light btn-sm m-1" data-filter="atual">Atuais</button>
+      <button class="filter-btn btn btn-outline-light btn-sm m-1" data-filter="brasileiro">Brasileiros</button>
+    </div>
+
+    
+    <div class="pilotos-grid row g-4" id="pilotos-grid">
+      
+      <div class="col-md-4">
+        <article class="piloto-card card-f1 h-100 p-3" data-category="historico brasileiro">
+          <img src="img/Ayrton-Senna.webp" alt="Ayrton Senna" class="img-fluid rounded mb-3">
+          <div class="piloto-info">
+            <h3>Ayrton Senna</h3>
+            <p class="nacionalidade text-danger fw-bold">🇧🇷 Brasil | 3 Títulos Mundiais</p>
+            <p class="periodo small text-white-50">Atuação: 1984 - 1994</p>
+            <p class="descricao text-white-50">Lendário pela velocidade pura na chuva e poles implacáveis com McLaren e Lotus.</p>
+          </div>
+        </article>
+      </div>
+
+      
+      <div class="col-md-4">
+        <article class="piloto-card card-f1 h-100 p-3" data-category="historico">
+          <img src="img/Michael-Schumacher.jpg" alt="Michael Schumacher" class="img-fluid rounded mb-3">
+          <div class="piloto-info">
+            <h3>Michael Schumacher</h3>
+            <p class="nacionalidade text-danger fw-bold">🇩🇪 Alemanha | 7 Títulos Mundiais</p>
+            <p class="periodo small text-white-50">Atuação: 1991 - 2012</p>
+            <p class="descricao text-white-50">Revolucionou a preparação física e técnica, dominando a era de ouro da Ferrari.</p>
+          </div>
+        </article>
+      </div>
+
+      
+      <div class="col-md-4">
+        <article class="piloto-card card-f1 h-100 p-3" data-category="historico atual">
+          <img src="img/Hamilton.jpg" alt="Lewis Hamilton" class="img-fluid rounded mb-3">
+          <div class="piloto-info">
+            <h3>Lewis Hamilton</h3>
+            <p class="nacionalidade text-danger fw-bold">🇬🇧 Reino Unido | 7 Títulos Mundiais</p>
+            <p class="periodo small text-white-50">Atuação: 2007 - Presente</p>
+            <p class="descricao text-white-50">Recordista de vitórias e poles da história da categoria, símbolo de consistência e talento.</p>
+          </div>
+        </article>
+      </div>
+
+      
+      <div class="col-md-4">
+        <article class="piloto-card card-f1 h-100 p-3" data-category="atual">
+          <img src="img/Verstappen.jpg" alt="Max Verstappen" class="img-fluid rounded mb-3">
+          <div class="piloto-info">
+            <h3>Max Verstappen</h3>
+            <p class="nacionalidade text-danger fw-bold">🇳🇱 Países Baixos | Múltiplos Títulos</p>
+            <p class="periodo small text-white-50">Atuação: 2015 - Presente</p>
+            <p class="descricao text-white-50">Principal força da Red Bull Racing na era contemporânea, conhecido por sua pilotagem agressiva.</p>
+          </div>
+        </article>
+      </div>
+
+      
+      <div class="col-md-4">
+        <article class="piloto-card card-f1 h-100 p-3" data-category="atual">
+          <img src="img/Leclerc.jpg" alt="Charles Leclerc" class="img-fluid rounded mb-3">
+          <div class="piloto-info">
+            <h3>Charles Leclerc</h3>
+            <p class="nacionalidade text-danger fw-bold">🇲🇨 Mônaco | Piloto Ferrari</p>
+            <p class="periodo small text-white-50">Atuação: 2018 - Presente</p>
+            <p class="descricao text-white-50">Mestre das voltas rápidas de classificação e principal esperança da escuderia de Maranello.</p>
+          </div>
+        </article>
+      </div>
+
+      
+      <div class="col-md-4">
+        <article class="piloto-card card-f1 h-100 p-3" data-category="historico brasileiro">
+          <img src="img/Piquet.jpg" alt="Nelson Piquet" class="img-fluid rounded mb-3">
+          <div class="piloto-info">
+            <h3>Nelson Piquet</h3>
+            <p class="nacionalidade text-danger fw-bold">🇧🇷 Brasil | 3 Títulos Mundiais</p>
+            <p class="periodo small text-white-50">Atuação: 1978 - 1991</p>
+            <p class="descricao text-white-50">Tricampeão mundial cerebral e estrategista, campeão com Brabham e Williams.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center py-4">
+    <div class="container">
+      <p class="mb-1 fw-bold">Portal Fórmula 1 - Maria Luiza Machado e Luiz Maccagnan</p>
+      <p class="small text-white-50">Projeto acadêmico de Front-End - Engenharia de Software (Universidade Positivo).</p>
+    </div>
+  </footer>
+
+  
+  <script src="js/bootstrap-local.js"></script>
+  <script src="js/pilotos.js"></script>
+</body>
+</html>

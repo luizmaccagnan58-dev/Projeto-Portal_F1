@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Fórmula 1 — História</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap-compat.css">
+  <link rel="stylesheet" href="css/historia.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-f1 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">F1 <span>PORTAL</span></a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" id="mobile-menu-btn" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link active" href="historia.html">História</a></li>
+          <li class="nav-item"><a class="nav-link" href="pilotos.html">Pilotos</a></li>
+          <li class="nav-item"><a class="nav-link" href="ferrari.html">Ferrari</a></li>
+          <li class="nav-item"><a class="nav-link" href="mclaren.html">McLaren</a></li>
+          <li class="nav-item"><a class="nav-link" href="mercedes.html">Mercedes</a></li>
+          <li class="nav-item"><a class="nav-link" href="redbull.html">Red Bull</a></li>
+          <li class="nav-item"><a class="nav-link" href="williams.html">Williams</a></li>
+          <li class="nav-item"><a class="nav-link" href="equipes.html">Equipes</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato & Quiz</a></li>
+          <li class="nav-item" id="f1-extra-nav"><a class="nav-link" href="https://www.formula1.com/" target="_blank" rel="noopener noreferrer">Site oficial ↗</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container main-content my-5">
+    <section class="historia-intro mb-5 text-center">
+      <h1 class="mb-3" style="color: #DC0000;">História da Fórmula 1</h1>
+      <p class="text-white col-lg-8 mx-auto">O Campeonato Mundial de Fórmula 1 da FIA teve sua temporada inaugural em 1950, unindo corridas de Grand Prix tradicionais da Europa em uma competição global de prestígio. Ao longo das décadas, o esporte evoluiu de monopostos com motor dianteiro e pneus estreitos para verdadeiros laboratórios aerodinâmicos de alta tecnologia.</p>
+    </section>
+
+    
+    <section class="timeline-section mb-5">
+      <h2 class="mb-5 text-center" style="color: #ffffff;">Linha do Tempo da F1</h2>
+      <div class="timeline-container">
+        <div class="timeline-item card-f1 rounded p-4 text-white">
+          <h3>1950</h3>
+          <h4>Nascimento do Campeonato Mundial</h4>
+          <p class="text-white-50 mb-0">Giuseppe Farina vence o primeiro título mundial pela Alfa Romeo.</p>
+        </div>
+        <div class="timeline-item card-f1 rounded p-4 text-white">
+          <h3>1960 - 1970</h3>
+          <h4>Evolução e Segurança</h4>
+          <p class="text-white-50 mb-0">A introdução dos motores centrais (Cooper) e o início da revolução aerodinâmica com asas e downforce.</p>
+        </div>
+        <div class="timeline-item card-f1 rounded p-4 text-white">
+          <h3>1980 - 1990</h3>
+          <h4>Rivalidades Globais</h4>
+          <p class="text-white-50 mb-0">A era turbo, os monopostos asa-efetiva e as disputas lendárias entre Senna, Prost, Piquet e Mansell.</p>
+        </div>
+        <div class="timeline-item card-f1 rounded p-4 text-white">
+          <h3>Anos 2000</h3>
+          <h4>Domínio Vermelho</h4>
+          <p class="text-white-50 mb-0">Michael Schumacher e a Scuderia Ferrari quebram recordes históricos com cinco títulos consecutivos.</p>
+        </div>
+        <div class="timeline-item card-f1 rounded p-4 text-white">
+          <h3>Anos 2010</h3>
+          <h4>Era Híbrida</h4>
+          <p class="text-white-50 mb-0">A chegada das unidades de potência V6 turbo híbridas e o recorde de supremacia da Mercedes.</p>
+        </div>
+        <div class="timeline-item card-f1 rounded p-4 text-white">
+          <h3>Anos 2020</h3>
+          <h4>Nova Geração</h4>
+          <p class="text-white-50 mb-0">Novos regulamentos de efeito solo e a ascensão de uma nova safra de talentos nas pistas.</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="video-section text-center">
+      <h2 class="mb-3" style="color: #DC0000;">A Emoção em Vídeo</h2>
+      <p class="text-white mb-4">Assista a um panorama histórico sobre a evolução da categoria máxima do automobilismo.</p>
+     <div class="video-wrapper col-lg-8 mx-auto">
+        <video controls width="100%" class="native-video rounded">
+        <source src="video/evolucao-formula-1.mp4" type="video/mp4">
+        Seu navegador não suporta a reprodução de vídeo.
+        </video>
+      </div>
+      <p class="small text-white-50">Vídeo criado por Luiz Maccagnan e Maria Luiza Machado, utilizando NotebookLM.</p>
+    </section>
+  </main>
+
+  <footer class="text-center py-4">
+    <div class="container">
+      <p class="mb-1 fw-bold">Portal Fórmula 1 - Maria Luiza Machado e Luiz Maccagnan</p>
+      <p class="small text-white-50">Projeto acadêmico de Front-End - Engenharia de Software (Universidade Positivo).</p>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap-local.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
