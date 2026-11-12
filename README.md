@@ -1,6 +1,7 @@
 # Portal F1 — Projeto Front-End
 
 Projeto acadêmico de portal informativo sobre Fórmula 1.
+
 Integrantes: Luiz Fernando Maccagnan (@LzMaccagnan) E Maria Luiza Machado (@marialuizamachado).
 
 ## Abrir no Visual Studio Code
