@@ -7,6 +7,7 @@ Portal informativo sobre a Fórmula 1 desenvolvido para a disciplina Desenvolvim
 ## Como abrir
 
 **Site publicado:** https://luizmaccagnan58-dev.github.io/Projeto-Portal_F1/
+
 Basta abrir o arquivo `index.html` em um navegador moderno, sem servidor e sem instalação. Para usar a extensão Live Server do Visual Studio Code, abra a pasta do projeto e inicie o servidor a partir do `index.html`.
 
 O conteúdo local (imagens, áudio, vídeo, CSS e scripts) funciona sem internet. As páginas que carregam o Bootstrap por CDN (todas, exceto `historia.html` e `pilotos.html`) dependem de conexão para o estilo completo do framework, e o link para o site oficial da Fórmula 1 também exige internet.
