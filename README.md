@@ -1,6 +1,6 @@
 # Portal F1 — Tudo sobre a Fórmula 1
 
-Portal informativo sobre a Fórmula 1 desenvolvido para a disciplina **Desenvolvimento Front-End para Web** da **Universidade Positivo**, orientada pelo professor **Fabricio Olivo**.
+Portal informativo sobre a Fórmula 1 desenvolvido para a disciplina Desenvolvimento Front-End para Web da Universidade Positivo.
 
 **Integrantes:** Maria Luiza Machado ([@marialuizamachado](https://github.com/marialuizamachado)) e Luiz Maccagnan ([@luizmaccagnan58-dev](https://github.com/luizmaccagnan58-dev))
 
